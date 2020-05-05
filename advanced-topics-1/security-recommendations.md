@@ -85,7 +85,7 @@ Unless you use encrypted tokens, you should use a secured connection when transm
 
 ## Loading Process
 
-When you receive a token, the following steps should be followed in this order. If one failed, you you reject the whole token.
+When you receive a token, the following steps should be followed in this order. If one failed, you reject the whole token.
 
 1. Unserialize the token
 2. For each signature/recipient \(may be possible when using the Json General Serialization Mode\):
